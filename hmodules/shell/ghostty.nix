@@ -12,7 +12,6 @@
       font-thicken = true;
 
       "window-padding-x" = 10;
-      "window-padding-y" = 6;
     };
   };
 }

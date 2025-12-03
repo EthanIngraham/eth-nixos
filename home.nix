@@ -9,6 +9,7 @@
     ./hmodules/shell/bash.nix
     ./hmodules/shell/tmux.nix
     ./hmodules/shell/ghostty.nix
+    ./hmodules/shell/neovim.nix
   ];
 
   home.stateVersion = "24.11";
