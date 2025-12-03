@@ -32,6 +32,6 @@
   networking.hostName = "thinkpad";
   system.stateVersion = "24.11";
 
-  home-manager.users.caverne = import ../../home.nix;
+  home-manager.users.caverne = import ../../hmodules/home.nix;
 
 }
