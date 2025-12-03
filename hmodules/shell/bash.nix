@@ -20,9 +20,15 @@
       SSH_ASKPASS = "";
       SSH_ASKPASS_REQUIRE = "never";
     };
-    
+
     initExtra = ''
-    '';
+      # Auto-attach to my tmux session
+      if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+        if tmux has-session -t caverne 2>/dev/null; then
+          exec tmux attach-session -t caverne
+        fi
+      fi
+    '';  
   };
 
 }

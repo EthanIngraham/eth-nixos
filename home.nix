@@ -7,6 +7,8 @@
     ./hmodules/applications/anki/anki.nix
     ./hmodules/desktop/i3.nix
     ./hmodules/shell/bash.nix
+    ./hmodules/shell/tmux.nix
+    ./hmodules/shell/ghostty.nix
   ];
 
   home.stateVersion = "24.11";
