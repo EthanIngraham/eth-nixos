@@ -14,6 +14,8 @@
       
       nixrs = "sudo nixos-rebuild switch -I nixos-config=$HOME/nixos-config/hosts/$(hostname)/configuration.nix";
       nixrt = "sudo nixos-rebuild test -I nixos-config=$HOME/nixos-config/hosts/$(hostname)/configuration.nix";
+
+      btry = "cat /sys/class/power_supply/BAT0/capacity && echo \"%\"";
     };
     
     sessionVariables = {

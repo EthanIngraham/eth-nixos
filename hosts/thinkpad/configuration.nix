@@ -27,6 +27,7 @@
     ../../modules/applications/media.nix
     ../../modules/applications/work.nix
     ../../modules/applications/virtualization.nix
+    ../../modules/applications/gaming.nix
 ];
  
   networking.hostName = "thinkpad";
