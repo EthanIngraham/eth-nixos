@@ -14,7 +14,7 @@
     ../../modules/system/boot.nix
     ../../modules/system/network.nix
     
-    ../../modules/desktop/i3.nix
+    ../../modules/desktop/hyprland.nix
     ../../modules/desktop/bluetooth.nix
     ../../modules/desktop/audio.nix
     ../../modules/desktop/xdg-portals.nix        
