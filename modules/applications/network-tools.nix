@@ -13,6 +13,9 @@
     tcpdump
     networkmanager
     networkmanagerapplet
+    xfce.thunar
+    xfce.tumbler
+    networkmanagerapplet
   ];
 
 }
