@@ -3,9 +3,6 @@
 {
   imports = [
     ./hardware-configuration.nix
-    (import "${builtins.fetchTarball {
-      url = "https://github.com/nix-community/home-manager/archive/release-24.11.tar.gz";
-    }}/nixos")
 
     ../../modules/system/secrets.nix
     ../../modules/system/users.nix
