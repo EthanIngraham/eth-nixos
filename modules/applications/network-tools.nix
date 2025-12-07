@@ -15,7 +15,7 @@
     networkmanagerapplet
     xfce.thunar
     xfce.tumbler
-    networkmanagerapplet
+    bluetuith
   ];
 
 }

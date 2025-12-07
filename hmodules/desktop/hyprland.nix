@@ -192,6 +192,9 @@
       #battery.critical {
         color: #cc6666;
       }
+      #tray {
+        padding: 0 10px;
+      }
     '';
   };
 }

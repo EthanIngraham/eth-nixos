@@ -5,7 +5,7 @@
   users.users.caverne = {
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager" "video" "audio" ];
-    initialPassword = "password";
+    hashedPasswordFile = config.sops.secrets."user-password-hash".path;
   };
 
 }
