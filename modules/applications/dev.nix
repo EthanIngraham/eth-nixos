@@ -21,6 +21,8 @@
     # Ansible
     ansible
     ansible-lint
+
+    unityhub
   ];
 
   programs.neovim = {

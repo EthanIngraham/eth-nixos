@@ -15,6 +15,8 @@
       nixrs = "sudo nixos-rebuild switch --flake $HOME/nixos-config#$(hostname)"; 
       nixrt = "sudo nixos-rebuild test --flake $HOME/nixos-config#$(hostname)";
 
+      unity-hub = "GDK_BACKEND=x11 unityhub";
+
     };
     
     sessionVariables = {
