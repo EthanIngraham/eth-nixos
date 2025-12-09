@@ -7,7 +7,7 @@
     shellAliases = {
 
       starttoolsmithvenv = "source ~/ansible-venv/bin/activate";
-      cdts = "cd ~/workspace/homelab/toolsmith/src/";
+      cdts = "cd ~/workspace/homelab/toolsmith/";
       cdn = "cd ~/nixos-config";
       packett = "firejail --noprofile --net=none packettracer8";
       cdcc = "cd /home/caverne/workspace/ccna/notes";
