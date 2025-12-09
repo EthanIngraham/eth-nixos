@@ -1,6 +1,6 @@
-# 'Eth-Nixos', my Personal NixOS Configuration
+# Personal NixOS Configuration
 
-## My journey so far
+## Journey so far
 
  Initial config
  Set up text editor (Nvim)
@@ -23,6 +23,7 @@
 
 ## Structure
 
+<pre>
 .
 ├── flake.lock
 ├── flake.nix
@@ -88,5 +89,4 @@
 ├── README.md
 └── secrets
     └── secrets.yaml
-
-17 directories, 48 files
+</pre>
