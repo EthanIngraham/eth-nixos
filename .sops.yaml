@@ -1,10 +1,12 @@
 keys:
   - &thinkpad age1sn5y4kcg8crecn7d2zacj7gwsk4j7dmpfmuy4fcqathcprytl4qqdmng0v
+  - &blackbridge age1h7lkhlw9uthhmc4d33dl9q6kfe2tvqmp8nzuk5p3vxml77r85ptqdsm0xq
 
 creation_rules:
   - path_regex: secrets/[^/]+\.yaml$
     key_groups:
       - age:
           - *thinkpad
+          - *blackbridge
 
 
